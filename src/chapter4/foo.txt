@@ -1,0 +1,5 @@
+But in my case I wanted to do
+something more like flat map in this case, I want a
+map to come out that misses out the key 1 because it’s value is None.
+flatMap doesn’t work on maps like mapValues, it get’s passed the tuple and if it
+returns a List single items you’ll get a list back, but if you return a tuple you’ll get a Map back.
