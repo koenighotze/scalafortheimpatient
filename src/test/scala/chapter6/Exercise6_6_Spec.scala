@@ -10,9 +10,7 @@ import org.scalatest._
  * Created by dschmitz on 20.02.15.
  */
 class Exercise6_6_Spec extends FlatSpec with Matchers {
-
-
-  "Eine Karo-Karte " should " als Rot erkannt werden " in {
+  "A card of diamonds " should " be recognized as red " in {
     Suits.isRed(Suits.Diamonds) should be (true)
   }
 
